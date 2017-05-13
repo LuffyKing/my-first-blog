@@ -10,13 +10,19 @@
 
         <div>
             <h1>Here are all your posts below:- </h1>
-             <ul>
+
 
 
                 {% for post in posts %}
-                 <li>{{post}}</li>
+                 <div>
+                    <h2>{{post.title}}</h2>
+                     <p>{{post.text}}</p>
+                     <p>date of publication: {{post.published_date}}</p>
+                 </div>
+
+
                 {% endfor %}
-             </ul>
+
         </div>
     </body>
 </html>

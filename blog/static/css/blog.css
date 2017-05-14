@@ -1,0 +1,30 @@
+h1 a,h2 {
+    color: #FCA205;
+    font-family: 'Pacifico',cursive;
+}
+
+body {
+    padding-left: 15px;
+    font-family: 'Cookie', cursive;
+}
+.posts{
+ font-size: 25pt;
+
+}
+.postheader{
+background: #DCD0C0;
+border-radius: 5px;
+border-bottom: 1px solid black;
+}
+body {
+    background: url("/static/images/3201.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+#posthead{
+margin-bottom:45px;
+}

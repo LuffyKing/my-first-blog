@@ -2,7 +2,7 @@
 {% block content %}
     {% for post in posts %}
                      <div id="posthead">
-                        <h2 class="postheader"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2><br />
+                        <h2 class="postheader"><a href="{% url 'blog:post_detail' pk=post.pk %}">{{ post.title }}</a></h2><br />
 
                      </div>
                      <br />

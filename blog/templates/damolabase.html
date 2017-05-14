@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+
+        <title>Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Cookie|Pacifico" rel="stylesheet">     </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+
+        <div class="col-md-8 col-lg-8">
+            <h1>Here are all your posts below:- </h1>
+
+
+                <div >
+                    {% block content %}
+                    {% endblock %}
+
+
+
+                </div>
+
+        </div>
+        <a href='http://www.freepik.com/free-vector/modern-abstract-background_837489.htm'>Designed by Freepik</a>
+
+    </body>
+</html>

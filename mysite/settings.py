@@ -138,3 +138,4 @@ try:
     from .local_settings import *
 except ImportError:
     pass
+STATICFILES_STORAGE='whitenoise.django.GzipManifestStaticFilesStorage'
